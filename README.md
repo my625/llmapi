@@ -45,10 +45,7 @@ Notes:
 
 ## Dataset layout (102 files)
 
-Place your dataset under a top-level `dataset/` directory using this structure:
-
 ```text
-dataset/
   human_github_pre2021_python/
     1.py
     ...
@@ -71,7 +68,7 @@ dataset/
 ```
 
 Where:
-- `human/` contains human-written code files
+- `human_github_pre2021_python` contains human-written code files
 - `gpt_generated_python_codes/` contains GPT-generated code files (any GPT tier)
 
 

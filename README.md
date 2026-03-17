@@ -1,7 +1,7 @@
-## The repository contains the implementations associated with the paper “Auditing Black-Box LLM APIs via Token Probabilities and Data Provenance: A Case Study in Source Code Generation”.
+### The repository contains the implementations associated with the paper “Auditing Black-Box LLM APIs via Token Probabilities and Data Provenance: A Case Study in Source Code Generation”.
 
 
-## What’s included
+### What’s included
 
 - **Code**: `icws_github.py` (end-to-end pipeline)
 - **Datasets (zipped)**:
@@ -12,7 +12,7 @@
   - `data_provenance_graph.png`: **data provenance graph** PNG for the **GPT‑4** example referenced in the article
 
 
-## Requirements
+### Requirements
 
 - Python 3.10+ recommended
 - Internet access (for OpenRouter calls)
@@ -23,7 +23,7 @@ Install dependencies:
 pip install -U torch transformers sentence-transformers scikit-learn networkx pyvis numpy requests
 ```
 
-## OpenRouter API key setup (required for Min‑K / judges)
+### OpenRouter API key setup (required for Min‑K / judges)
 
 Set the environment variable:
 
@@ -39,7 +39,7 @@ Notes:
 - `icws_github.py` ships with `OPENROUTER_API_KEY = "PUT YOUR API KEY"` so no secrets are committed.
 - If no key is set, OpenRouter-based steps will fail (or be skipped depending on which entrypoints you call).
 
-## Dataset layout (102 files)
+### Dataset layout (102 files)
 
 ```text
   human_github_pre2021_python/
@@ -69,7 +69,7 @@ Where:
 
 
 
-## Running
+### Running
 
 Because `icws_github.py` is an all-in-one research script, it may contain multiple entrypoints (functions / demo blocks).
 The simplest way to start is:

@@ -1,4 +1,4 @@
-# The repository contains the implementations associated with the paper “Auditing Black-Box LLM APIs via Token Probabilities and Data Provenance: A Case Study in Source Code Generation.”
+## The repository contains the implementations associated with the paper “Auditing Black-Box LLM APIs via Token Probabilities and Data Provenance: A Case Study in Source Code Generation.”
 
 
 ## What’s included

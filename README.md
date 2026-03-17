@@ -68,7 +68,7 @@ Notes:
 ```
 
 Where:
-- `human_github_pre2021_python` contains human-written code files
+- `human_github_pre2021_python/` contains human-written code files
 - `gpt_generated_python_codes/` contains GPT-generated code files (any GPT tier)
 
 

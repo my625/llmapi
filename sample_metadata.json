@@ -1,0 +1,71 @@
+{
+  "provenance_metadata": {
+    "analysis_id": "prov-2026-02-25-001",
+    "timestamp": "2026-02-25T11:42:15Z",
+    "input_type": "source_code",
+    "language_detected": "python"
+  },
+  "classification": {
+    "is_llm_generated": true,
+    "confidence_score": 0.3138,
+    "predicted_model": {
+      "model_name": "gpt-4o",
+      "provider": "OpenAI",
+      "model_family": "GPT",
+      "generation_probability": 0.3138
+    },
+    "alternative_candidates": [
+      {
+        "model_name": "human",
+        "provider": "Human",
+        "probability": 0.31
+      },
+      {
+        "model_name": "gpt-5.2",
+        "provider": "OpenAI",
+        "probability": 0.2022
+      }
+    ]
+  },
+  "repository_attribution": {
+    "matched_repositories": [
+      {
+        "repository_name": "external_web_match",
+        "platform": "Web",
+        "similarity_score": 0.2631,
+        "match_type": "code_snippet_overlap"
+      },
+      {
+        "repository_name": "repository_match",
+        "platform": "GitHub",
+        "similarity_score": 0.2472,
+        "match_type": "code_snippet_overlap"
+      }
+    ],
+    "stack_overflow_matches": [
+      {
+        "question_id": "SO-11421501",
+        "similarity_score": 0.2759
+      }
+    ]
+  },
+  "feature_analysis": {
+    "stylometric_features": {
+      "average_function_length": 0.5,
+      "comment_density": 0.0,
+      "docstring_style": "minimal",
+      "variable_naming_pattern": "descriptive_generic"
+    },
+    "semantic_patterns": {
+      "error_handling_style": "implicit/no explicit handling",
+      "modularity_score": 0.43,
+      "boilerplate_probability": 0.63
+    }
+  },
+  "governance": {
+    "pii_detected": false,
+    "license_risk_flag": false,
+    "audit_log_id": "audit-1142150441",
+    "compliance_status": "research_use_only"
+  }
+}

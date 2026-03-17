@@ -1,10 +1,5 @@
 # The repository contains the implementations associated with the paper “Auditing Black-Box LLM APIs via Token Probabilities and Data Provenance: A Case Study in Source Code Generation.”
 
-- **Min‑K over token logprobs** via **OpenRouter**
-- **Fallback multi‑judge ensemble** (structured JSON output)
-- Optional **repository similarity** and data provenance graph utilities
-
-The main script is `icws_github.py`.
 
 ## What’s included
 

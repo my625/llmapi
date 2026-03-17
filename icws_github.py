@@ -1,16 +1,4 @@
-"""
-DEEM_MinK: Data Provenance and Min-K Membership Inference for Code Attribution
 
-Focus: GPT-3.5 Turbo, GPT-4, GPT-5 and Human attribution using OpenRouter API.
-
-  - Set OPENROUTER_API_KEY: Min-K runs over OpenRouter models (gpt-3.5-turbo-instruct, gpt-4o-mini, gpt-4o, gpt-5-pro).
-    Attribution: human | gpt3.5 | gpt4 | gpt5.
-  - Primary attribution: Min-K over OpenRouter logprobs (gpt3.5/gpt4/gpt5).
-  - Fallback attribution: multi-judge OpenRouter chat ensemble (JSON output).
-  - Human vs LLM: balanced fusion between Min-K and judge ensemble.
-
-Also: repository similarity (GitHub/StackExchange), W3C PROV provenance graphs. Designed for Colab and classrooms.
-"""
 
 from __future__ import annotations
 

@@ -2896,33 +2896,6 @@ def crawl_human_python_pre2021_from_github(
     }
 
 
-# ---------------------------------------------------------------------------
-# How to run in Google Colab
-# ---------------------------------------------------------------------------
-# 1. Upload this file. In a Colab cell, run:
-#    from DEEM_MinK import install_dependencies, run_example, display_prov_in_colab
-#    install_dependencies()
-# 2. Run the pipeline (you will be prompted to paste code, or pass code explicitly):
-#    results = run_example(code_snippet=None)   # prompts for code
-#    # OR: results = run_example(code_snippet="def foo(): return 1")
-#    # Optional: set os.environ["GITHUB_TOKEN"] for higher GitHub API rate limits
-#    if results: display_prov_in_colab(results)
-# 3. Optional Gradio UI (no prompt; paste code in the web form):
-#    from DEEM_MinK import launch_gradio
-#    launch_gradio()
-# 4. Crawl human-written Python dataset from GitHub (pre-2021 snapshots):
-#    import os
-#    from DEEM_MinK import crawl_human_python_pre2021_from_github
-#    # Optional but recommended to avoid strict rate limits:
-#    # os.environ["GITHUB_TOKEN"] = "ghp_xxx"
-#    out = crawl_human_python_pre2021_from_github(
-#        target_count=55,
-#        output_dir="older_human_pre2021_55_programs",
-#        cutoff_iso="2020-12-31T23:59:59Z",
-#        github_token=os.environ.get("GITHUB_TOKEN"),
-#    )
-#    out
-# ---------------------------------------------------------------------------
 
 if __name__ == "__main__":
     # Prompts for code (or use file path as sys.argv[1], or pass code_snippet=... in code)
